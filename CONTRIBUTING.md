@@ -9,7 +9,14 @@ Keep changes small and focused. Describe user-visible behavior in the README and
 
 ## Branch naming
 
-Use `feat/<topic>` for a focused feature branch. Replace `<topic>` with a short description of the change, for example `feat/npm-release-workflow`.
+Do not push directly to `master`. Create a feature branch from `master` using
+`feat/<topic>` for a focused change. Replace `<topic>` with a short description,
+for example `feat/npm-release-workflow`.
+
+## Commit messages
+
+Use no conventional prefixes and write commit messages in the past tense. For
+example: `Added npm release workflow` or `Fixed package metadata`.
 
 ## Local checks
 
